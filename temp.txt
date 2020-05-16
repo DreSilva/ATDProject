@@ -1,0 +1,6 @@
+Podemos obter graficos distintos para cada tipo de atividade: Dinamico, Estatico e de Transição.
+#### Graficos Dinamicos
+Como podemos observar pela janela Retangular, esta apresenta diversos picos com periocidade, que diminuem em magnitude conforme aumenta a frequência. As restantes janelas diminuem a magnitude de tais picos e reduzem a propagação das frequencias e permite uma melhor análise dos resultados. 
+Esta propagação pode intreferir com a nossa capacidade de distinguir diferentes sinusoides, se as componentes das frequencias forem diferentes e uma for mais baixa a interfrencia da mais alta pode obstrutir a presença da primeira, mas se as frequencias forem parecidas a intreferencia pode tornar ambas insoluveis mesmo em sinuosides de forças iguais.
+Em comparação uma com as outras, nota-se que as Blackman é onde este efeito se sente mais, pois tem a maior redução de picos intemédios.
+A janela Retangular é um caso de janela de high resolution e baixa dynamic range, sendo assim boa para distinguir frequencias parecidas. A janela de Hamming é um intremédio entre ambas. Ha outras janelas que baixam a resolução e aumenta a dynamic range, como a Gaussian e a Blackman.
